@@ -1,6 +1,6 @@
 class LinkedList:
     """This is a base class for creating and manipulating singly linked list.
-        Comes with several methods that allows you to manipulate linked lists.
+        Comes with several methods that allow you to manipulate single linked lists.
         It can be a linked of any data.
     """
     def __swapValues(self,a,b):
@@ -22,7 +22,7 @@ class LinkedList:
         Args:
             value (Int,Float,Strings,Sets,Dictionaries): Node can be of only one of the these data types.
         Returns:
-            Linked List: Returns a linked list reprensentd by a dictionary.
+            Linked List: Returns a linked list reprensentd by nested dictionaries.
         """
         if self.__wrapper["value"] == None and self.__wrapper["next"] == None:
             self.__wrapper["value"] =value
