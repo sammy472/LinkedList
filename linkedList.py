@@ -1,7 +1,3 @@
-
-
-
-
 class LinkedList:
     """This is a base class for creating and manipulating singly linked list.
         Comes with several methods that allows you to manipulate linked lists.
@@ -23,10 +19,8 @@ class LinkedList:
         return {"value":value,"next":None}
     def addNode(self,value):
         """This function adds a node at the end of a linked list created by the wrapper class.
-
         Args:
             value (Int,Float,Strings,Sets,Dictionaries): Node can be of only one of the these data types.
-
         Returns:
             Linked List: Returns a linked list reprensentd by a dictionary.
         """
@@ -119,14 +113,7 @@ class LinkedList:
             b = c["next"]
             temp["next"] = node
             node["next"] = c
-            
-            
-        
-            
-        
-
-                
-    
+#Testing the module.            
 if __name__ == "__main__":
     l = LinkedList()
     l.addNode(1)
